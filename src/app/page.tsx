@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from '@/components/ui/ThemeToggle'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Moon, Sun, ChevronDown, Github, ExternalLink, Zap, Users, Code, Sparkles } from 'lucide-react'
+import { ChevronDown, Github, ExternalLink, Zap, Users, Code, Sparkles } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Balance from "react-wrap-balancer"
 import { cn } from "@/lib/utils"
