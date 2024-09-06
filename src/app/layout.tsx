@@ -6,8 +6,8 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "orne by zukijourney",
-  description: "the #1 all ai api balanacer.",
+  title: "zukijourney",
+  description: "the ultimate ai corpa.",
 };
 
 export default function RootLayout({
