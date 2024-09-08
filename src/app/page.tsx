@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { ChevronDown, Github, ExternalLink, Zap, Users, Code, Sparkles, Menu, Home, Briefcase, UserCircle2 } from 'lucide-react'
-import { motion, AnimatePresence, useAnimation } from 'framer-motion'
+import { motion, AnimatePresence, useAnimation, HTMLMotionProps } from 'framer-motion'
 import Balance from "react-wrap-balancer"
 import { cn } from "@/lib/utils"
 import {
@@ -20,7 +20,8 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
-
+type MotionDivProps = HTMLMotionProps<"div">
+type MotionH1Props = HTMLMotionProps<"h1">
 const ScrollSpy = () => {
   const [activeSection, setActiveSection] = useState('home')
 
@@ -97,7 +98,7 @@ const MobileMenu = () => (
   </Sheet>
 )
 
-const PageHeader = React.memo(({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+const PageHeader = React.memo(({ className, children, ...props }: MotionDivProps) => (
   <motion.section
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
@@ -112,7 +113,7 @@ const PageHeader = React.memo(({ className, children, ...props }: React.HTMLAttr
   </motion.section>
 ))
 
-const PageHeaderHeading = React.memo(({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
+const PageHeaderHeading = React.memo(({ className, ...props } : MotionH1Props ) => (
   <motion.h1
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
@@ -141,7 +142,7 @@ const PageHeaderDescription = React.memo(({ className, ...props }: React.HTMLAtt
   </motion.div>
 ))
 
-const PageActions = React.memo(({ className, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+const PageActions = React.memo(({ className, ...props }: MotionDivProps) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
