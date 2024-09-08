@@ -7,9 +7,8 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from '@/components/ui/ThemeToggle'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { ChevronDown, Github, ExternalLink, Zap, Users, Code, Sparkles, Menu, Home, Briefcase, UserCircle2 } from 'lucide-react'
-import { motion, AnimatePresence, useAnimation, HTMLMotionProps } from 'framer-motion'
+import { motion, useAnimation, HTMLMotionProps } from 'framer-motion'
 import Balance from "react-wrap-balancer"
 import { cn } from "@/lib/utils"
 import {
