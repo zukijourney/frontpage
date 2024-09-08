@@ -186,7 +186,7 @@ export default function IndexPage() {
         <ThemeToggle />
       </div>
       <MobileMenu />
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <section id="home" className="min-h-screen flex items-center justify-center">
           <PageHeader>
             <AnimatedLink
