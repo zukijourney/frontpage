@@ -90,6 +90,9 @@ const MobileMenu = () => (
         <Link href="#home" className="text-lg font-medium">Home</Link>
         <Link href="#projects" className="text-lg font-medium">Projects</Link>
         <Link href="#team" className="text-lg font-medium">Team</Link>
+        <Link href="https://docs.zukijourney.com/ai" className="text-lg font-medium">AI API Documentation</Link>
+        <Link href="https://docs.zukijourney.com/bots" className="text-lg font-medium">Bots Documentation</Link>
+        <Link href="https://cas.zukijourney.com" className="text-lg font-medium">AI API Benchmarks</Link>
         <Link href="https://discord.gg/zukijourney" className="text-lg font-medium">Join Discord</Link>
         <Link href="https://github.com/zukijourney" className="text-lg font-medium">GitHub</Link>
       </nav>
@@ -441,6 +444,9 @@ const Footer = React.memo(() => {
         <p className="text-sm sm:text-base">© 2024 zukijourney. All rights reserved.</p>
         <p className="mt-2 text-sm sm:text-base">
           Contact us on <AnimatedLink href="https://discord.gg/zukijourney" className="text-primary hover:underline">Discord</AnimatedLink>
+        </p>
+        <p>
+        ‎ 
         </p>
       </div>
     </footer>
