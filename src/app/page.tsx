@@ -254,7 +254,7 @@ const ProjectsSection = React.memo(() => {
         <ProjectCard
           icon={<Users />}
           title="zukijourney-bots"
-          description="AI-powered bots serving 50,000+ users across 3000+ servers, including zuki.gm and zuki.time."
+          description="AI-powered bots serving 153,000+ unique users across 3000 servers, including zuki.gm and zuki.time."
           link="https://docs.zukijourney.com/bots"
           github='https://github.com/zukijourney/bots-docs'
         />
@@ -268,7 +268,7 @@ const ProjectsSection = React.memo(() => {
         <ProjectCard
           icon={<Zap />}
           title="Project ORNE"
-          description="A secretive project set to revolutionize AI integration. Coming 9/25/2024."
+          description="A secretive project set to revolutionize AI integration. Coming Soon."
           comingSoon
         />
       </motion.div>
