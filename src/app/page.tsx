@@ -332,12 +332,12 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
 const TeamSection = React.memo(() => {
   const teamMembers = [
     { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3eb13f80d44c05a0f94e9fd0151e2fbd.webp?size=4096", githubUrl: "https://github.com/zukixa" },
-    { name: "thatluvinhasguy", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/fc45da957eb8c5355d8199ae389c0286.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
+    { name: "thatluvinhasguy", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/7288b09f8dbdd061fbd1375d0fa48f3f.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
     { name: "aunchers", role: "CSO", url: "https://cdn.discordapp.com/avatars/800718471935557663/757dd08a5230de37efa9dac13665cd2a.webp?size=4096", githubUrl: 'https://github.com/Aunchers'},
+    { name: "voidiiii", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/3d694e8bbe53a4efd0c1676b5a2b3ca0.webp?size=4096", githubUrl: 'https://github.com/void6670'},
     { name: "thorn_ike", role: "Chief RP Officer", url: "https://cdn.discordapp.com/avatars/345275472764076032/a_bf1f4d4e0e7b999c2196fc2ca75c155d.gif?size=4096", githubUrl: 'https://github.com/thorn_ike'},
     { name: "prostoleander", role: "Executive", url: "https://cdn.discordapp.com/avatars/829858497746305024/316127131824b4400e9f333232ba4440.webp?size=4096", githubUrl: "https://github.com/henceiusegentoo" },
-    { name: "sabsterrexx", role: "Executive", url: "https://cdn.discordapp.com/avatars/864267600070836284/05a70ff902393fe693fd1a56a2257835.webp?size=4096", githubUrl: 'https://github.com/sabsterrexx'},
-    { name: "voidiiii", role: "Executive", url: "https://cdn.discordapp.com/avatars/821328725643100172/5acd5ef1d04c44ff2ed3777abc80597a.webp?size=4096", githubUrl: 'https://github.com/void6670'},
+    { name: "sabsterrexx", role: "Executive", url: "https://cdn.discordapp.com/avatars/864267600070836284/8a74465f321c36335111c823aff5e4b3.webp?size=4096", githubUrl: 'https://github.com/sabsterrexx'},
     { name: "lunaiiii", role: "Executive", url: "https://cdn.discordapp.com/avatars/868795530493431868/1a9992096ad3b8a53d787b1ee5985af5.webp?size=4096", githubUrl: 'https://github.com/zukixa'},
   ];
 
