@@ -246,10 +246,10 @@ const ProjectsSection = React.memo(() => {
       >
         <ProjectCard
           icon={<Code />}
-          title="zukijourney-api"
+          title="zukijourney-api-v4"
           description="One of the largest and oldest continuously operating freemium multi AI API on Discord."
           link="https://docs.zukijourney.com/ai"
-          github='https://github.com/zukijourney/api-oss'
+          github='https://github.com/zukijourney/example-api'
         />
         <ProjectCard
           icon={<Users />}
@@ -261,14 +261,14 @@ const ProjectsSection = React.memo(() => {
         <ProjectCard
           icon={<Sparkles />}
           title="CAS (Cool AI Stuff)"
-          description="Uncensored benchmarks and showcase of free-to-use AI APIs on Discord."
+          description="Uncensored benchmarks and showcase of all free-to-use AI APIs on Discord."
           link="https://cas.zukijourney.com"
           github="https://github.com/zukixa/cool-ai-stuff"
         />
         <ProjectCard
           icon={<Zap />}
           title="Project ORNE"
-          description="A secretive project set to revolutionize AI integration. Coming Soon."
+          description="A secretive project set to revolutionize AI integration. Coming Late December 2024."
           comingSoon
         />
       </motion.div>
@@ -304,7 +304,7 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
         </CardContent>
         <CardFooter className="p-4 sm:p-6">
           {comingSoon ? (
-            <p className="text-muted-foreground text-sm">Coming Soon</p>
+            <p className="text-muted-foreground text-sm">Coming Late December 2024.</p>
           ) : (
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 w-full">
               {link && (
@@ -331,7 +331,7 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
 
 const TeamSection = React.memo(() => {
   const teamMembers = [
-    { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3eb13f80d44c05a0f94e9fd0151e2fbd.webp?size=4096", githubUrl: "https://github.com/zukixa" },
+    { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3c9f80e5ebc096526bfa41b7303eb913.webp?size=4096", githubUrl: "https://github.com/zukixa" },
     { name: "thatluvinhasguy", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/7288b09f8dbdd061fbd1375d0fa48f3f.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
     { name: "aunchers", role: "CSO", url: "https://cdn.discordapp.com/avatars/800718471935557663/757dd08a5230de37efa9dac13665cd2a.webp?size=4096", githubUrl: 'https://github.com/Aunchers'},
     { name: "voidiiii", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/3d694e8bbe53a4efd0c1676b5a2b3ca0.webp?size=4096", githubUrl: 'https://github.com/void6670'},
@@ -444,9 +444,6 @@ const Footer = React.memo(() => {
         <p className="text-sm sm:text-base">© 2024 zukijourney. All rights reserved.</p>
         <p className="mt-2 text-sm sm:text-base">
           Contact us on <AnimatedLink href="https://discord.gg/zukijourney" className="text-primary hover:underline">Discord</AnimatedLink>
-        </p>
-        <p>
-        ‎ 
         </p>
       </div>
     </footer>
