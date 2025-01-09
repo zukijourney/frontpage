@@ -332,7 +332,7 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
 const TeamSection = React.memo(() => {
   const teamMembers = [
     { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3c9f80e5ebc096526bfa41b7303eb913.webp?size=4096", githubUrl: "https://github.com/zukixa" },
-    { name: "thatluvinhasguy", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/7288b09f8dbdd061fbd1375d0fa48f3f.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
+    { name: "lusinhas", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/9f6c3a0f46c2f426d8d113e758b95845.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
     { name: "aunchers", role: "CSO", url: "https://cdn.discordapp.com/avatars/800718471935557663/757dd08a5230de37efa9dac13665cd2a.webp?size=4096", githubUrl: 'https://github.com/Aunchers'},
     { name: "voidiiii", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/3d694e8bbe53a4efd0c1676b5a2b3ca0.webp?size=4096", githubUrl: 'https://github.com/void6670'},
     { name: "thorn_ike", role: "Chief RP Officer", url: "https://cdn.discordapp.com/avatars/345275472764076032/a_bf1f4d4e0e7b999c2196fc2ca75c155d.gif?size=4096", githubUrl: 'https://github.com/thorn_ike'},
