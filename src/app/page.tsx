@@ -304,7 +304,7 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
         </CardContent>
         <CardFooter className="p-4 sm:p-6">
           {comingSoon ? (
-            <p className="text-muted-foreground text-sm">Coming Late December 2024.</p>
+            <p className="text-muted-foreground text-sm">Coming Late March 2025.</p>
           ) : (
             <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 w-full">
               {link && (
@@ -331,14 +331,14 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
 
 const TeamSection = React.memo(() => {
   const teamMembers = [
-    { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3c9f80e5ebc096526bfa41b7303eb913.webp?size=4096", githubUrl: "https://github.com/zukixa" },
-    { name: "thatluvinhasguy", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/7288b09f8dbdd061fbd1375d0fa48f3f.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
+    { name: "zuki", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/7baebb86eb05b7719c63b87d07f725a6.webp?size=4096", githubUrl: "https://github.com/zukixa" },
+    { name: "lukinhas", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/7288b09f8dbdd061fbd1375d0fa48f3f.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
     { name: "aunchers", role: "CSO", url: "https://cdn.discordapp.com/avatars/800718471935557663/757dd08a5230de37efa9dac13665cd2a.webp?size=4096", githubUrl: 'https://github.com/Aunchers'},
-    { name: "voidiiii", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/3d694e8bbe53a4efd0c1676b5a2b3ca0.webp?size=4096", githubUrl: 'https://github.com/void6670'},
-    { name: "thorn_ike", role: "Chief RP Officer", url: "https://cdn.discordapp.com/avatars/345275472764076032/a_bf1f4d4e0e7b999c2196fc2ca75c155d.gif?size=4096", githubUrl: 'https://github.com/thorn_ike'},
-    { name: "prostoleander", role: "Executive", url: "https://cdn.discordapp.com/avatars/829858497746305024/316127131824b4400e9f333232ba4440.webp?size=4096", githubUrl: "https://github.com/henceiusegentoo" },
-    { name: "sabsterrexx", role: "Executive", url: "https://cdn.discordapp.com/avatars/864267600070836284/8a74465f321c36335111c823aff5e4b3.webp?size=4096", githubUrl: 'https://github.com/sabsterrexx'},
-    { name: "lunaiiii", role: "Executive", url: "https://cdn.discordapp.com/avatars/868795530493431868/1a9992096ad3b8a53d787b1ee5985af5.webp?size=4096", githubUrl: 'https://github.com/zukixa'},
+    { name: "voidi", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/121a234ce6bbb30f7e796e0e3572ab17.webp?size=4096", githubUrl: 'https://github.com/void6670'},
+    { name: "thorn", role: "Chief RP Officer", url: "https://cdn.discordapp.com/avatars/345275472764076032/a_bf1f4d4e0e7b999c2196fc2ca75c155d.gif?size=4096", githubUrl: 'https://github.com/thorn_ike'},
+    { name: "leander", role: "Executive", url: "https://cdn.discordapp.com/avatars/829858497746305024/316127131824b4400e9f333232ba4440.webp?size=4096", githubUrl: "https://github.com/henceiusegentoo" },
+    { name: "sabs", role: "Executive", url: "https://cdn.discordapp.com/avatars/864267600070836284/a94a6dbe52fecbfd4f45ded1f7ba2dc6.webp?size=4096", githubUrl: 'https://github.com/sabsterrexx'},
+    { name: "luna", role: "Executive", url: "https://cdn.discordapp.com/avatars/868795530493431868/1a9992096ad3b8a53d787b1ee5985af5.webp?size=4096", githubUrl: 'https://github.com/zukijourney'},
   ];
 
   return (
@@ -441,7 +441,7 @@ const Footer = React.memo(() => {
   return (
     <footer className="bg-card text-card-foreground mt-24 py-8 sm:py-12">
       <div className="container mx-auto px-4 text-center">
-        <p className="text-sm sm:text-base">© 2024 zukijourney. All rights reserved.</p>
+        <p className="text-sm sm:text-base">© 2025 zukijourney. All rights reserved.</p>
         <p className="mt-2 text-sm sm:text-base">
           Contact us on <AnimatedLink href="https://discord.gg/zukijourney" className="text-primary hover:underline">Discord</AnimatedLink>
         </p>
