@@ -268,7 +268,7 @@ const ProjectsSection = React.memo(() => {
         <ProjectCard
           icon={<Zap />}
           title="Project ORNE"
-          description="A secretive project set to revolutionize AI integration. Coming Late December 2024."
+          description="A secretive project set to revolutionize AI integration. Coming Late March 2025."
           comingSoon
         />
       </motion.div>
@@ -331,7 +331,7 @@ const ProjectCard = React.memo(({ icon, title, description, link, github, coming
 
 const TeamSection = React.memo(() => {
   const teamMembers = [
-    { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/3c9f80e5ebc096526bfa41b7303eb913.webp?size=4096", githubUrl: "https://github.com/zukixa" },
+    { name: "zukixa", role: "CEO", url: "https://cdn.discordapp.com/avatars/325699845031723010/7baebb86eb05b7719c63b87d07f725a6.webp?size=4096", githubUrl: "https://github.com/zukixa" },
     { name: "lusinhas", role: "CTO", url: "https://cdn.discordapp.com/avatars/881961145236353056/9f6c3a0f46c2f426d8d113e758b95845.webp?size=4096", githubUrl: "https://github.com/ThatLukinhasGuy" },
     { name: "aunchers", role: "CSO", url: "https://cdn.discordapp.com/avatars/800718471935557663/757dd08a5230de37efa9dac13665cd2a.webp?size=4096", githubUrl: 'https://github.com/Aunchers'},
     { name: "voidi", role: "CMO", url: "https://cdn.discordapp.com/avatars/821328725643100172/121a234ce6bbb30f7e796e0e3572ab17.webp?size=4096", githubUrl: 'https://github.com/void6670'},
